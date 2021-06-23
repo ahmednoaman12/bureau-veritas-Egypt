@@ -111,13 +111,40 @@ width: 50%;
   color: #F1384D;
   text-decoration: none;
 }
+.our-services{
+  position: relative;
+}
+/* .services{
+  position: absolute;
+  height: 50%;
+  width: 50%;
+  top: 92 ;
+  right:230;
+} */
+.p-service{
+  font-size: 20px;
+
+}
+.our-ser{
+  height: 400;
+  
+}
+.OUR-MISSION-anchor{
+  /* color: #F1384D; */
+  text-decoration: none;
+}
+.bg-our-ser{
+  background-image: url("../assets/bg-our-service.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
  
 .centered {
-  /* position: absolute; */
   font-size: 20px;
-  /* top: 30%;
-  left: 30%;
-  transform: translate(-50%, -50%); */
+}
+.centered-service {
+  font-size: 16px;
 }
 .Helvetica{
     font-size: 40px;
@@ -360,3 +387,113 @@ width: 50%;
     width: 50%;
     height: 50%;
   } */
+
+  /* footer{
+    background-color: #33383c;
+    padding:70px 0px;
+    height: 550px;
+}	       
+
+footer ul li{
+   padding:5px 0px;
+}
+
+.adress span , .contact span , .social span{
+  color: #FFF; 
+  font-weight: 800; 
+  padding-bottom: 10px; 
+  margin-bottom: 20px;
+  display: block;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+.adress li p , .contact li a , .social li a{
+   color:#FFF;
+   letter-spacing: 2px;
+   text-decoration:none;
+   font-size:15px;
+}
+
+.social li{
+   float:left;
+}
+
+.adress , .contact , .social {
+   list-style: none;
+}
+
+.fa{
+   color:#9c9c9c;
+   margin-right: 15px;
+   font-size:14px;
+} */
+
+.bg-footer{
+  background-image: url("../assets/bg-footer.png");
+  
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer{
+  height: 400px;
+}
+footer {
+  background: #333333;
+  color: #aaa;
+  
+}
+
+footer a {
+  color: #aaa;
+}
+
+footer a:hover {
+  color: #fff;
+}
+
+footer h3 {
+ color: #0894d1;
+  letter-spacing: 1px;
+  margin: 30px 0 20px;
+}
+
+footer .three-column {
+ overflow: hidden;
+}
+
+footer .three-column li{
+ width: 33.3333%;
+  float: left;
+  padding: 5px 0;
+}
+
+footer .socila-list {
+  overflow: hidden;
+  margin: 20px 0 10px;
+}
+
+footer .socila-list li {
+  float: left;
+  margin-right: 3px;
+  opacity: 0.7;
+  overflow: hidden;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+}
+
+footer .socila-list li:hover {
+  opacity: 1;
+}
+
+footer .img-thumbnail {
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid #444;
+  margin-bottom: 5px;
+}
+
+

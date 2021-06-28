@@ -82,10 +82,15 @@
     }
 }
 
-.load-more {
-    padding-top: 6em;
-}
+/* .load-more {
+    
 
+} */
+.load-more{
+  
+  padding-top: 6em;
+  
+}
 .our-news {
     color: #F1384D;
 }
@@ -94,3 +99,21 @@
     color: #F1384D;
     font-size: 50px;
 }
+.filterDiv {
+  
+    display: none;
+  }
+/* .show {
+    display: block;
+  } */
+  .loading{
+    display:none;
+  }
+ /* #loadMore a {
+     display: inline-block;
+ } */
+ .noContent {
+    color: #000 !important;
+    background-color: transparent !important;
+    pointer-events: none;
+  }

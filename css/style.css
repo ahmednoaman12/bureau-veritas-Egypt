@@ -14,7 +14,9 @@ body {
   position: relative;
 
 }
-
+.container {
+  overflow: hidden;
+}
 
 /* Make the image fully responsive */
 .carousel-inner img {

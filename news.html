@@ -22,16 +22,7 @@
 
 <body>
    <header>
-      <!-- <div class="mb-auto  p-1 top-nav">
-
-
-         <div class="d-flex justify-content-between   ">
-            <div class="comp-name  text-white">bureau veritas Egypt</div>
-
-            <div class="p-2 mr-1 bg-danger"> <i class="fa fa-search" aria-hidden="true"></i> </div>
-         </div>
-
-      </div> -->
+       
 
       <nav class="navbar navbar-expand-sm  bg-dark">
          <div class="contanier d-md-flex justify-content-center align-items-center   collapse navbar-collapse"
@@ -53,7 +44,7 @@
                            <a class="nav-link" href="#">Services</a>
                         </li>
                         <li class="nav-item mr-2">
-                           <a class="nav-link" href="#">Our News</a>
+                           <a class="nav-link" href="news.html">Our News</a>
                         </li>
                         <li class="nav-item mr-2">
                            <a class="nav-link" href="#">Managment Systems</a>
@@ -106,200 +97,235 @@
 
    <section class="news-cards">
       <div class="links  ">
-         <ul class="nav justify-content-center">
+         <ul class="nav justify-content-center" id="myBtnContainer">
             <li class="nav-item">
-               <a class="nav-link nav-news  active" href="#">All</a>
+              <button class="nav-link nav-news  btn active "  onclick="filterSelection('All')" >All</button>
             </li>
             <li class="nav-item">
-               <a class="nav-link nav-news " href="#">News</a>
+              <button class="nav-link nav-news btn "  onclick="filterSelection('News')">News</button>
             </li>
             <li class="nav-item">
-               <a class="nav-link nav-news" href="#">Press Release</a>
+              <button class="nav-link nav-news btn"  onclick="filterSelection('Press-Release')">Press Release</button>
             </li>
             <li class="nav-item">
-               <a class="nav-link nav-news  " href="#">Chemicals</a>
+              <button class="nav-link nav-news btn  "  onclick="filterSelection('Chemicals')">Chemicals</button>
             </li>
             <li class="nav-item">
-               <a class="nav-link nav-news  " href="#">Power & Utilities</a>
+              <button class="nav-link nav-news btn  "  onclick="filterSelection('Power & Utilities')">Power & Utilities</button>
             </li>
          </ul>
       </div>
 
 
 
-      <div class="container">
+      <div class="container ">
          <div class="row">
 
-            <div class="col-md-3">
+
+ 
+            <div class="col-md-3 filterDiv loading   News ">
                <div class="card news-card">
                   <div class="news-img-card">
                      <img class="img-fluid " src="assets/new-card-10.png" alt="Card image cap">
                   </div>
                   <div class="card-body news-content">
-                     <h5 class="card-title">news</h5>
+                     <h5 class="card-title  ">News</h5>
                      <p class="card-text ">There are many variations of passages of Lorem</p>
                      <a href="#" class="btn  ">Read More <span> <i
                               class="fas fa-long-arrow-alt-right news-right-arrow"></i> </span></a>
                   </div>
                </div>
             </div>
+  
 
-            <div class="col-md-3">
+ 
+            <div class="col-md-3 filterDiv loading  Chemicals">
                <div class="card news-card">
                   <div class="news-img-card">
                      <img class="img-fluid " src="assets/new-card-2.png" alt="Card image cap">
                   </div>
                   <div class="card-body news-content">
-                     <h5 class="card-title">news</h5>
+                     <h5 class="card-title   ">Chemicals</h5>
                      <p class="card-text ">There are many variations of passages of Lorem</p>
                      <a href="#" class="btn  ">Read More <span> <i
                               class="fas fa-long-arrow-alt-right news-right-arrow"></i> </span></a>
                   </div>
                </div>
             </div>
+ 
 
-            <div class="col-md-3">
+
+            <div class="col-md-3 filterDiv loading  News">
                <div class="card news-card">
                   <div class="news-img-card">
                      <img class="img-fluid " src="assets/new-card-3.png" alt="Card image cap">
                   </div>
                   <div class="card-body news-content">
-                     <h5 class="card-title">news</h5>
+                     <h5 class="card-title  ">News</h5>
                      <p class="card-text ">There are many variations of passages of Lorem</p>
                      <a href="#" class="btn  ">Read More <span> <i
                               class="fas fa-long-arrow-alt-right news-right-arrow"></i> </span></a>
                   </div>
                </div>
             </div>
+          
 
-            <div class="col-md-3">
+         
+            <div class="col-md-3 filterDiv loading  Chemicals">
                <div class="card news-card">
                   <div class="news-img-card">
                      <img class="img-fluid " src="assets/new-card-4.png" alt="Card image cap">
                   </div>
                   <div class="card-body news-content">
-                     <h5 class="card-title">news</h5>
+                     <h5 class="card-title  ">Chemicals</h5>
                      <p class="card-text ">There are many variations of passages of Lorem</p>
                      <a href="#" class="btn  ">Read More <span> <i
                               class="fas fa-long-arrow-alt-right news-right-arrow"></i> </span></a>
                   </div>
                </div>
             </div>
-            <div class="col-md-3">
+
+          
+
+
+         
+
+            <div class="col-md-3 filterDiv loading  Chemicals">
                <div class="card news-card">
                   <div class="news-img-card">
                      <img class="img-fluid " src="assets/new-card-5.png" alt="Card image cap">
                   </div>
                   <div class="card-body news-content">
-                     <h5 class="card-title">news</h5>
+                     <h5 class="card-title  ">Chemicals</h5>
                      <p class="card-text ">There are many variations of passages of Lorem</p>
                      <a href="#" class="btn  ">Read More <span> <i
                               class="fas fa-long-arrow-alt-right news-right-arrow"></i> </span></a>
                   </div>
                </div>
             </div>
+          
 
-            <div class="col-md-3">
+
+         
+
+            <div class="col-md-3 filterDiv loading  News">
                <div class="card news-card">
                   <div class="news-img-card">
                      <img class="img-fluid " src="assets/new-card-6.png" alt="Card image cap">
                   </div>
                   <div class="card-body news-content">
-                     <h5 class="card-title">news</h5>
+                     <h5 class="card-title  ">News</h5>
                      <p class="card-text ">There are many variations of passages of Lorem</p>
                      <a href="#" class="btn  ">Read More <span> <i
                               class="fas fa-long-arrow-alt-right news-right-arrow"></i> </span></a>
                   </div>
                </div>
             </div>
+          
 
-            <div class="col-md-3">
+
+         
+
+            <div class="col-md-3 filterDiv loading  News">
                <div class="card news-card">
                   <div class="news-img-card">
                      <img class="img-fluid " src="assets/new-card-7.png" alt="Card image cap">
                   </div>
                   <div class="card-body news-content">
-                     <h5 class="card-title">news</h5>
+                     <h5 class="card-title  ">News</h5>
                      <p class="card-text ">There are many variations of passages of Lorem</p>
                      <a href="#" class="btn  ">Read More <span> <i
                               class="fas fa-long-arrow-alt-right news-right-arrow"></i> </span></a>
                   </div>
                </div>
             </div>
+          
 
-            <div class="col-md-3">
+
+         
+
+            <div class="col-md-3 filterDiv loading  Chemicals">
                <div class="card news-card">
                   <div class="news-img-card">
                      <img class="img-fluid " src="assets/new-card-8.png" alt="Card image cap">
                   </div>
                   <div class="card-body news-content">
-                     <h5 class="card-title">news</h5>
+                     <h5 class="card-title  ">Chemicals</h5>
                      <p class="card-text ">There are many variations of passages of Lorem</p>
                      <a href="#" class="btn  ">Read More <span> <i
                               class="fas fa-long-arrow-alt-right news-right-arrow"></i> </span></a>
                   </div>
                </div>
             </div>
-            <div class="col-md-3">
+        
+
+         
+
+            <div class="col-md-3 filterDiv loading  Chemicals">
                <div class="card news-card">
                   <div class="news-img-card">
                      <img class="img-fluid " src="assets/new-card-9.png" alt="Card image cap">
                   </div>
                   <div class="card-body news-content">
-                     <h5 class="card-title">news</h5>
+                     <h5 class="card-title   ">Chemicals</h5>
                      <p class="card-text ">There are many variations of passages of Lorem</p>
                      <a href="#" class="btn  ">Read More <span> <i
                               class="fas fa-long-arrow-alt-right news-right-arrow"></i> </span></a>
                   </div>
                </div>
             </div>
+          
 
-            <div class="col-md-3">
+         
+            <div class="col-md-3 filterDiv loading  News">
                <div class="card news-card">
                   <div class="news-img-card">
                      <img class="img-fluid " src="assets/new-card-10.png" alt="Card image cap">
                   </div>
                   <div class="card-body news-content">
-                     <h5 class="card-title">news</h5>
+                     <h5 class="card-title  ">News</h5>
                      <p class="card-text ">There are many variations of passages of Lorem</p>
                      <a href="#" class="btn  ">Read More <span> <i
                               class="fas fa-long-arrow-alt-right news-right-arrow"></i> </span></a>
                   </div>
                </div>
             </div>
+         
 
-            <div class="col-md-3">
+            
+            <div class="col-md-3 filterDiv loading  News">
                <div class="card news-card">
                   <div class="news-img-card">
                      <img class="img-fluid " src="assets/new-card-11.png" alt="Card image cap">
                   </div>
                   <div class="card-body news-content">
-                     <h5 class="card-title">news</h5>
+                     <h5 class="card-title ">News</h5>
                      <p class="card-text ">There are many variations of passages of Lorem</p>
                      <a href="#" class="btn  ">Read More <span> <i
                               class="fas fa-long-arrow-alt-right news-right-arrow"></i> </span></a>
                   </div>
                </div>
-            </div>
+            </div>  
 
-            <div class="col-md-3">
+            
+            <div class="col-md-3 filterDiv loading align-content-md-around Chemicals">
                <div class="card news-card">
                   <div class="news-img-card">
                      <img class="img-fluid " src="assets/new-card-12.png" alt="Card image cap">
                   </div>
                   <div class="card-body news-content">
-                     <h5 class="card-title">news</h5>
+                     <h5 class="card-title  ">Chemicals</h5>
                      <p class="card-text ">There are many variations of passages of Lorem</p>
                      <a href="#" class="btn  ">Read More <span> <i
                               class="fas fa-long-arrow-alt-right news-right-arrow"></i> </span></a>
                   </div>
 
                </div>
-            </div>
+            </div> 
 
          </div>
-         <div class="text-center load-more">
-            <a href="" class="btn  btn-danger"> load more</a>
+         <div class="text-center load-more "  >
+            <a href="" class="btn  btn-danger " id="loadMore"  > load more</a>
          </div>
       </div>
 
@@ -395,7 +421,23 @@
       integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
       crossorigin="anonymous" referrerpolicy="no-referrer"></script>
    <script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+   <script src="js/news.js"></script>
    <script src="js/customs.js"></script>
+
+  <script>
+$(document).ready(function(){
+  $(".loading").slice(0, 4).show();
+  $("#loadMore").on("click", function(e){
+    e.preventDefault();
+    $(".loading:hidden").slice(0, 4).slideDown();
+    if($(".loading:hidden").length == 0) {
+      $("#loadMore").fadeOut('slow');
+    }
+  });
+  
+})
+
+  </script>
 </body>
 
 </html>

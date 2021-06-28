@@ -1,59 +1,96 @@
-.cover-news{
+.cover-news {
     height: calc(100vh - 162px);
-    
+
 }
-.bg-cover-news{
+
+.bg-cover-news {
     height: calc(100vh - 162px);
     /* height: 100vh; */
     /* width: 100%; */
-    background: url("../assets/bg-cover-news.png") center left ;
+    background: url("../assets/bg-cover-news.png") center left;
     background-repeat: no-repeat;
     background-size: cover;
 
- }
- .news-cards{
-     height: auto;
-     padding: 50px 0px;
-     background-color: #F3F3F3;
-    
- }
- .news-cards .news-card{
+}
+
+.news-cards {
+    height: auto;
+    padding: 50px 0px;
+    background-color: #F3F3F3;
+
+}
+
+.news-cards .card-text:hover {
+    color: red;
+}
+
+.news-cards .news-content .card-title:hover {
+    color: red;
+}
+
+.news-cards .btn:hover {
+    color: red;
+}
+
+.news-cards .img-fluid:hover {
+    height: 304px;
+}
+
+.news-cards .news-card {
     height: 400px;
     margin-top: 80px;
- }
- .news-cards .nav-news{
+}
+
+.news-cards .nav-news {
     font-size: 16px;
     font-family: Helvetica;
     text-decoration: none;
     color: #666666;
-  }
-  .news-cards .card{
-     border: none !important;
-     background-color: transparent !important;
- }
-.news-right-arrow{
-    color: #A6A6A5;
-    
 }
- .news-cards .card-title{
+
+.news-cards .card {
+    border: none !important;
+    background-color: transparent !important;
+}
+
+.news-right-arrow {
+    color: #A6A6A5;
+
+}
+
+.news-cards .card-title {
     color: #A6A6A5
- }
- .news-cards .card-text{
-     color: #292929;
-     font-size: 18px;
- }
- .news-img-card{
-     height: 80%;
- }
- .news-content{
-     height: 40%;
-     margin-bottom: 16px;
+}
+
+.news-cards .card-text {
+    color: #292929;
+    font-size: 18px;
+}
+
+.news-img-card {
+    height: 80%;
+}
+
+.news-content {
+    height: 40%;
+    margin-bottom: 16px;
+}
+
+@media screen and (max-width: 929px) and (min-width: 767px) {
+    .news-img-card {
+        height: 40%;
     }
-    @media screen and (max-width: 929px) and (min-width: 767px){
-       .news-img-card{
-           height: 40%;
-       }
-     }
-.load-more{
+}
+
+.load-more {
     padding-top: 6em;
+}
+
+.our-news {
+    color: #F1384D;
+}
+
+.our-latest-news {
+    color: #F1384D;
+    font-size: 50px;
 }
